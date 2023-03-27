@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 function NavList() {
   const goTop = () => {
@@ -10,14 +10,46 @@ function NavList() {
   return (
     <>
       <ul className="flex gap-9 text-[16px] font-medium text-white">
-        <li>Home</li>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Schedule</li>
-        <li>Blog</li>
-        <li>Pricing</li>
-        <li>Classes</li>
-        <li>Contact</li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Gallery
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Schedule
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Blog
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Pricing
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Classes
+          </Link>
+        </li>
+        <li>
+          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+            Contact
+          </Link>
+        </li>
       </ul>
     </>
   );
