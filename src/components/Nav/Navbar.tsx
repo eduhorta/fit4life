@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavList from './NavList';
 import Logo from '../../assets/images/Logo/logo.jpeg';
@@ -28,7 +28,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed flex w-full flex-row items-center justify-between bg-black py-8 px-8 shadow-xl ">
+      <nav className="fixed z-[2] flex w-full flex-row items-center justify-between bg-black py-8 px-8 shadow-xl ">
         <img src={Logo} className="h-8" />
         <div className="hidden lg:block">
           <NavList />
@@ -87,7 +87,7 @@ function Navbar() {
           </div>
           {/* Sidebar */}
           <div
-            className={`fixed top-0 left-0 z-[99] h-screen w-full overflow-auto bg-white pt-24 pb-6 duration-500 ease-in-out lg:w-[30%] ${
+            className={`fixed top-0 left-0 z-[999] h-screen w-full overflow-auto bg-white pt-24 pb-6 duration-500 ease-in-out lg:w-[30%] ${
               sidebar ? 'left-0' : '-left-[100%]'
             }`}
           >
