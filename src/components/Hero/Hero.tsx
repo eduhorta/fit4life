@@ -5,7 +5,7 @@ import MainButton from '../Buttons/MainButton';
 function Hero() {
   return (
     <section
-      className="z-[1] flex h-screen w-full translate-y-24 items-center justify-evenly bg-black bg-cover bg-center bg-no-repeat lg:bg-top "
+      className="flex h-screen w-full translate-y-24 items-center justify-evenly bg-black bg-cover bg-center bg-no-repeat lg:bg-top "
       style={{ backgroundImage: `url(${HeroImg})` }}
     >
       <div className="mb-48 flex flex-col items-center justify-center space-y-4 text-white">
