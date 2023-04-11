@@ -17,10 +17,10 @@ function Hero() {
             UNLEASH YOUR ENERGY
           </p>
         </div>
-        <h1 className="text-center text-4xl font-bold tracking-wide">
+        <h1 className="text-center text-3xl font-bold tracking-wide">
           TRANSFORM YOUR BODY
         </h1>
-        <h2 className="text-center text-3xl tracking-widest">
+        <h2 className="text-center text-2xl tracking-widest">
           STRONGER EVERYDAY
         </h2>
         <MainButton />

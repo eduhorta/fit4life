@@ -6,7 +6,7 @@ function AboutCards() {
       {aboutList.map((card, index) => {
         return (
           <div
-            className="mx-8 flex h-72 -translate-y-8 flex-col items-center justify-center rounded-tr-3xl rounded-bl-3xl border-2 bg-white shadow-2xl lg:w-96"
+            className="mx-8 flex h-72 -translate-y-8 flex-col items-center rounded-tr-3xl rounded-bl-3xl border-2 bg-white py-8 shadow-2xl lg:w-96"
             key={index}
           >
             <img src={`${card.img}`} alt="activity-icon" className="mb-2" />
