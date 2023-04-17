@@ -8,32 +8,32 @@ import WomanYoga from '../../assets/images/Featured/woman-yoga.jpg';
 export const FeaturedList = [
   {
     img: WomanExercise,
-    title: 'Woman Exercise',
-    description: 'WOMAN',
+    title: 'Calisthenics',
+    description: 'High-intensity training | Tabata classes',
   },
   {
     img: ManBiceps,
-    title: 'Man Biceps',
-    description: 'BICEPS DESCRIPTION',
+    title: 'Power',
+    description: ' Strength | Resistance',
   },
   {
     img: WomanRunning,
-    title: 'Woman Running',
-    description: 'WOMAN RUNNING',
+    title: 'Cardio',
+    description: 'Running | Cycling',
   },
   {
     img: ManFighting,
-    title: 'Man Fighting',
-    description: 'MAN FIGHTING',
+    title: 'Martial Arts',
+    description: 'Self Defense | Krav Maga | MMA',
   },
   {
     img: WomanSquat,
-    title: 'Woman Squat',
-    description: 'WOMAN SQUAT',
+    title: 'Workout',
+    description: 'Top equipments | Refrigerated Environment',
   },
   {
     img: WomanYoga,
-    title: 'Woman Yoga',
-    description: 'WOMAN YOGA',
+    title: 'Anaerobic Exercise',
+    description: 'Yoga | Meditation | Stretches',
   },
 ];

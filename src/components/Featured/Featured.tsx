@@ -20,9 +20,9 @@ function Featured() {
           return (
             <div key={index} className="relative border-2 border-teal-500">
               <img className="w-full" src={card.img} />
-              <div className="absolute bottom-8 left-8 flex flex-col items-center justify-center">
-                <h2 className="text-white">{card.title}</h2>
-                <h3 className="text-white">{card.description}</h3>
+              <div className="absolute bottom-8 flex w-full flex-col space-y-1 bg-gray-900 bg-opacity-40 px-6  tracking-widest text-white">
+                <h2 className="font-semibold">{card.title}</h2>
+                <h3>{card.description}</h3>
               </div>
             </div>
           );
