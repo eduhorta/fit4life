@@ -1,5 +1,4 @@
 import ChooseUsBanner from './ChooseUsBanner';
-import ChooseBg from '../../assets/images/ChooseUs/choose-bg.jpg';
 import GirlWorkout from '../../assets/images/ChooseUs/girl-workout.png';
 import TitleBg from '../../assets/images/Title/titlebg.svg';
 import { chooseUsList } from './ChooseUsList';
@@ -8,7 +7,7 @@ function ChooseUs() {
   return (
     <section>
       <ChooseUsBanner />
-      <div className="flex h-full flex-col items-center justify-center bg-gradient-to-b from-black via-gray-900 to-gray-900 lg:flex-row">
+      <div className="flex h-full flex-col items-center justify-center bg-gradient-to-b from-black via-gray-900 to-gray-900 lg:flex-row lg:space-x-36">
         <div>
           <img src={GirlWorkout} />
         </div>
@@ -28,12 +27,15 @@ function ChooseUs() {
             create a personalized fitness and nutrition plan that helps you
             reach your specific goals.
           </p>
-          <div className="grid w-96 grid-cols-1 gap-8 space-y-8 py-4 text-white lg:grid-cols-2">
+          <div className="grid w-96 grid-cols-1 items-center justify-items-center gap-8 py-4 text-white lg:grid-cols-2">
             {chooseUsList.map((card, index) => {
               return (
-                <div key={index}>
+                <div
+                  className="flex flex-col items-center justify-center gap-4"
+                  key={index}
+                >
                   <img src={card.img} />
-                  <p>{card.description}</p>
+                  <p className="">{card.description}</p>
                 </div>
               );
             })}

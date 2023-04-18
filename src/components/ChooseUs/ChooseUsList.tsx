@@ -6,7 +6,7 @@ import Training from '../../assets/images/ChooseUs/training.png';
 export const chooseUsList = [
   {
     img: Bench,
-    description: 'Modern Gym Equipments',
+    description: 'Modern Equipments',
   },
   {
     img: Bottle,
