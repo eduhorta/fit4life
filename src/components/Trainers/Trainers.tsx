@@ -8,7 +8,7 @@ function Trainers() {
         <h1 className="z-[2] bg-no-repeat text-center text-2xl font-bold text-white">
           GYM TRAINERS
         </h1>
-        <img className="absolute top-14 w-96" src={TitleBg} />
+        <img className="absolute top-14 w-96" src={TitleBg} alt="title-bg" />
         <h2 className="pt-16 pb-8 text-3xl font-bold tracking-wider">
           Team of Experts
         </h2>
