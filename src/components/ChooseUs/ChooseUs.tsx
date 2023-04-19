@@ -27,7 +27,7 @@ function ChooseUs() {
             create a personalized fitness and nutrition plan that helps you
             reach your specific goals.
           </p>
-          <div className="grid w-96 grid-cols-1 items-center justify-items-center gap-8 py-4 text-white lg:grid-cols-2">
+          <div className="grid max-w-full grid-cols-1 items-center justify-items-center gap-8 py-4 text-white sm:max-w-lg md:max-w-xl lg:max-w-4xl lg:grid-cols-2 xl:max-w-6xl">
             {chooseUsList.map((card, index) => {
               return (
                 <div

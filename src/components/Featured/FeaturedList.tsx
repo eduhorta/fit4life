@@ -9,7 +9,7 @@ export const FeaturedList = [
   {
     img: WomanExercise,
     title: 'Calisthenics',
-    description: 'High-intensity training | Tabata classes',
+    description: 'High-intensity training',
   },
   {
     img: ManBiceps,
@@ -24,12 +24,12 @@ export const FeaturedList = [
   {
     img: ManFighting,
     title: 'Martial Arts',
-    description: 'Self Defense | Krav Maga | MMA',
+    description: 'Self Defense | MMA',
   },
   {
     img: WomanSquat,
     title: 'Workout',
-    description: 'Top equipments | Refrigerated Environment',
+    description: 'Top equipments',
   },
   {
     img: WomanYoga,

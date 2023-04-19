@@ -1,6 +1,5 @@
 import AboutCards from './AboutCards';
 import TitleBg from '../../assets/images/Title/titlebg.svg';
-import GirlSmile from '../../assets/images/About/girl-smile.png';
 import ManBg from '../../assets/images/About/man-green-bg.svg';
 import ManStrong from '../../assets/images/About/man-strong.png';
 import Equipment from '../../assets/images/About/equipments.png';

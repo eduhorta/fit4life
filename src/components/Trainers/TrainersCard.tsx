@@ -13,10 +13,13 @@ function TrainersCard() {
             className="flex flex-col items-center justify-center shadow-2xl"
           >
             <div
-              className="bg-no-repeat"
+              className="mx- bg-no-repeat"
               style={{ backgroundImage: `url(${TrainerBg})` }}
             >
-              <img className="h-[22rem] w-[22rem]" src={card.img} />
+              <img
+                className="h-[22rem] w-[22rem] object-contain"
+                src={card.img}
+              />
             </div>
             <p>{card.name}</p>
             <p>{card.description}</p>
