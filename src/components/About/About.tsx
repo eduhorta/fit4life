@@ -9,7 +9,7 @@ import Weightlifter from '../../assets/images/About/weightlifter.png';
 
 function About() {
   return (
-    <section className="bg-[#0f766e] bg-opacity-10">
+    <section className="bg-opacity-10 bg-gradient-to-b from-teal-900 via-white to-white ">
       <div className="mt-8 gap-16 space-y-8  text-white lg:flex lg:justify-center lg:space-y-0">
         <AboutCards />
       </div>

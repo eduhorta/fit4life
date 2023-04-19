@@ -8,7 +8,7 @@ function ChooseUs() {
     <section>
       <ChooseUsBanner />
       <div className="flex h-full flex-col items-center justify-center bg-gradient-to-b from-black via-gray-900 to-gray-900 lg:flex-row lg:space-x-36">
-        <div>
+        <div className="px-4 lg:px-0">
           <img src={GirlWorkout} />
         </div>
         <div className="flex w-72 flex-col items-center justify-center gap-8 py-24 lg:w-[480px]">

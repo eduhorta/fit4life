@@ -28,7 +28,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed z-[2] flex w-full flex-row items-center justify-between bg-black py-8 px-8 shadow-xl ">
+      <nav className="fixed z-[3] flex w-screen flex-row items-center justify-between bg-black py-8 px-8 shadow-xl ">
         <img src={Logo} className="h-8" />
         <div className="hidden lg:block">
           <NavList />
