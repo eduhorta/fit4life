@@ -1,5 +1,4 @@
 import { PricingList } from './PricingList';
-import PricingBg from '../../assets/images/Pricing/background.jpg';
 
 function PricingCard() {
   return (
@@ -13,7 +12,7 @@ function PricingCard() {
                 {card.name}
               </h1>
             </div>
-            <div className="flex h-[29rem] flex-col items-center justify-start bg-white pt-2 drop-shadow-2xl">
+            <div className="flex h-[30rem] flex-col items-center justify-items-center bg-white pt-2 drop-shadow-2xl">
               <p className="py-4 text-3xl text-black">
                 ${card.price}
                 <span className="text-lg text-gray-700">/m</span>
@@ -23,7 +22,9 @@ function PricingCard() {
                   <li key={index}>{service}</li>
                 ))}
               </ul>
-              <button className="absolute bottom-0">BUTTON</button>
+              <button className="absolute bottom-2 rounded-lg bg-[#0f766e] py-2 px-4 font-semibold tracking-wide text-white">
+                Subscribe
+              </button>
             </div>
           </div>
         );
