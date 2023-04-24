@@ -6,8 +6,8 @@ import YouTubeIcon from '../../assets/images/Unleash/youtube.svg';
 
 function UnleashBanner() {
   return (
-    <section className="flex h-max flex-col items-center justify-between bg-black pt-8 text-white lg:flex-row">
-      <div className="space-y-1 pt-12 text-center text-2xl font-bold lg:pl-36 lg:text-4xl">
+    <section className="flex h-max flex-col items-center justify-between bg-black pt-8 text-white lg:flex-row lg:px-36">
+      <div className="space-y-1 pt-12 text-center text-2xl font-bold  lg:text-4xl">
         <h1>Need a Fitness Trainer?</h1>
         <h2>
           <span className="rounded-lg bg-[#0f766e] px-3">
@@ -21,7 +21,7 @@ function UnleashBanner() {
           <img className="h-8" src={YouTubeIcon} />
         </p>
       </div>
-      <div className="flex items-center justify-center lg:pr-36">
+      <div className="flex items-center justify-center">
         <div
           className="bg-contain bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${UnleashBg})` }}

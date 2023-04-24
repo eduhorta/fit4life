@@ -5,6 +5,7 @@ import ChooseUs from '../components/ChooseUs/ChooseUs';
 import Trainers from '../components/Trainers/Trainers';
 import Pricing from '../components/Pricing/Pricing';
 import Unleash from '../components/UnleashBanner/UnleashBanner';
+import Footer from '../components/Footer/Footer';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Trainers />
       <Pricing />
       <Unleash />
+      <Footer />
     </>
   );
 }

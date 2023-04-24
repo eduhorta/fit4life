@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavList from './NavList';
-import Logo from '../../assets/images/Logo/logo.jpeg';
+import Logo from '../../assets/images/Logo/logo.png';
 import {
   UserIcon,
   InformationCircleIcon,
@@ -28,8 +28,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed z-[3] flex w-screen flex-row items-center justify-between bg-black py-8 px-8 shadow-xl ">
-        <img src={Logo} className="h-8" />
+      <nav className="fixed z-[3] flex w-screen flex-row items-center justify-between bg-black py-6 px-8 shadow-xl ">
+        <img src={Logo} className="h-12 rounded-full bg-white" />
         <div className="hidden lg:block">
           <NavList />
         </div>
