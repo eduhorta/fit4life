@@ -32,7 +32,7 @@ function MainButton(props: Props) {
   return (
     <Link onClick={goTop} to={'/classes'}>
       <div
-        className={`flex bg-white ${buttonSize} items-center justify-center`}
+        className={`flex bg-white ${buttonSize} items-center justify-center rounded-lg`}
       >
         <h2 className={`font-semibold text-black ${textSize}`}>CLASSES</h2>
         <ArrowSmallRightIcon className="ml-1 h-6 w-6 text-teal-500" />

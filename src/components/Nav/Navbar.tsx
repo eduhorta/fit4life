@@ -25,11 +25,19 @@ function Navbar() {
   function sidebarMenu() {
     setSidebar(!sidebar);
   }
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <>
       <nav className="fixed z-[3] flex w-screen flex-row items-center justify-between bg-black py-6 px-8 shadow-xl ">
-        <img src={Logo} className="h-12 rounded-full bg-white" />
+        <Link to={'/'} onClick={goTop}>
+          <img src={Logo} className="h-12 rounded-full bg-white" />
+        </Link>
         <div className="hidden lg:block">
           <NavList />
         </div>

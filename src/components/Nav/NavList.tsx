@@ -9,14 +9,14 @@ function NavList() {
   };
   return (
     <>
-      <ul className="flex gap-9 text-[16px] font-medium text-white">
+      <ul className="flex gap-9 text-[16px] font-bold tracking-widest text-white">
         <li>
           <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
             Home
           </Link>
         </li>
         <li>
-          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+          <Link onClick={goTop} to={'/about'} className="hover:text-teal-500">
             About
           </Link>
         </li>
