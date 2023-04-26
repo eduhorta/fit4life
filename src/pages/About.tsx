@@ -7,6 +7,9 @@ import Gym from '../assets/images/About/gym.png';
 import Weightlifter from '../assets/images/About/weightlifter.png';
 import Footer from '../components/Footer/Footer';
 import Target from '../assets/images/About/target.png';
+import Mountain from '../assets/images/About/mountain.png';
+import GymExercise from '../assets/images/About/exercise-gym.jpg';
+import GymLowAngle from '../assets/images/About/gym-low-angle.jpg';
 
 function About() {
   return (
@@ -65,15 +68,37 @@ function About() {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center lg:flex-row">
-        <div className="flex flex-col items-center justify-center gap-2">
-          <img className="h-16" src={Target} />
-          <h1 className="text-3xl font-bold">Our History</h1>
-          <p>lorem ipsum</p>
+      <div className="mx-8 mt-20 flex flex-col items-center justify-center shadow-2xl lg:mx-48 lg:flex-row">
+        <div className="flex flex-col items-center justify-center gap-2 lg:w-1/2">
+          <img className="h-32 pt-8" src={Target} />
+          <h1 className="text-3xl font-bold">Our Target</h1>
+          <p className="p-4 text-justify">
+            Fit4Life is a gym that is dedicated to helping individuals improve
+            their overall health and fitness. Our target is to provide a
+            welcoming and inclusive environment for people of all fitness levels
+            to achieve their goals.
+          </p>
         </div>
-        <div>imagem</div>
+        <div className="lg:w-1/2">
+          <img src={GymExercise} />
+        </div>
       </div>
-      <div>oi</div>
+      <div className="mx-8 flex flex-col items-center justify-center shadow-2xl drop-shadow-2xl lg:mx-48 lg:flex-row">
+        <div className="order-last lg:order-first lg:w-1/2">
+          <img src={GymLowAngle} />
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2 lg:w-1/2">
+          <img className="h-32 pt-8" src={Mountain} />
+          <h1 className="text-3xl font-bold">Climb to the top</h1>
+          <p className="p-4 text-justify">
+            Climbing to the top is not just about physical strength, but also
+            about determination and perseverance. At Fit4Life Gym, we understand
+            the importance of these qualities when it comes to reaching your
+            fitness goals. That`&apos;`s why our experienced trainers are
+            dedicated to guiding you every step of the way.
+          </p>
+        </div>
+      </div>
       <Footer />
     </section>
   );
