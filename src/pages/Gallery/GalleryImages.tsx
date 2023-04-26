@@ -55,16 +55,4 @@ export const GalleryImages = [
     id: 11,
     img: Img11,
   },
-  {
-    id: 12,
-    img: Img12,
-  },
-  {
-    id: 13,
-    img: Img13,
-  },
-  {
-    id: 14,
-    img: Img14,
-  },
 ];
