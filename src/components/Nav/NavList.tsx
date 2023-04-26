@@ -21,7 +21,11 @@ function NavList() {
           </Link>
         </li>
         <li>
-          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+          <Link
+            onClick={goTop}
+            to={'/gallery/page-1'}
+            className="hover:text-teal-500"
+          >
             Gallery
           </Link>
         </li>

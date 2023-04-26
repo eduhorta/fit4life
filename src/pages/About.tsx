@@ -16,11 +16,11 @@ function About() {
     <section>
       <div>
         <img
-          className="w-screen object-fill pt-20 lg:h-max"
+          className="w-screen object-fill pt-20 lg:h-max lg:-translate-y-12"
           src={Banner}
           alt="banner"
         />
-        <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white">
+        <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white lg:-translate-y-20">
           About Us
         </h1>
       </div>

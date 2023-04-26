@@ -114,7 +114,7 @@ function Navbar() {
                 Fit4Life is the perfect place to start your fitness journey.
               </p>
               <h1 className="mt-4 text-lg font-bold tracking-wide">Gallery</h1>
-              <Link to="/gallery">
+              <Link to="/gallery/page-1" onClick={sidebarMenu}>
                 <div className="mt-2 grid grid-cols-3 grid-rows-1 gap-4">
                   <img
                     className="rounded-lg"
