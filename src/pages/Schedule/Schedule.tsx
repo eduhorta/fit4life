@@ -1,8 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Footer from '@/components/Footer/Footer';
 import Banner from '../../assets/images/Banner/banner.jpg';
-
-function Gallery() {
+function Schedule() {
   return (
     <section>
       <div>
@@ -12,7 +11,7 @@ function Gallery() {
           alt="banner"
         />
         <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white lg:-translate-y-24 lg:text-5xl">
-          Gallery
+          Schedule
         </h1>
       </div>
       <div>
@@ -23,4 +22,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Schedule;

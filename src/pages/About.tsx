@@ -20,8 +20,8 @@ function About() {
           src={Banner}
           alt="banner"
         />
-        <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white lg:-translate-y-20">
-          About Us
+        <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white lg:-translate-y-24 lg:text-5xl">
+          About
         </h1>
       </div>
       <div className="mx-14 flex flex-col py-4 lg:flex-row lg:items-center lg:justify-between">

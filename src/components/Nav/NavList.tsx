@@ -30,7 +30,11 @@ function NavList() {
           </Link>
         </li>
         <li>
-          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+          <Link
+            onClick={goTop}
+            to={'/schedule/monday'}
+            className="hover:text-teal-500"
+          >
             Schedule
           </Link>
         </li>
