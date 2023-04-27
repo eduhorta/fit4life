@@ -9,6 +9,10 @@ import Img8 from '../../assets/images/Gallery/img8.jpg';
 import Img9 from '../../assets/images/Gallery/img9.jpg';
 import Img10 from '../../assets/images/Gallery/img10.jpg';
 import Img11 from '../../assets/images/Gallery/img11.jpg';
+import Img12 from '../../assets/images/Gallery/img12.jpg';
+import Img13 from '../../assets/images/Gallery/img13.jpg';
+import Img14 from '../../assets/images/Gallery/img14.jpg';
+import Img15 from '../../assets/images/Gallery/img15.jpg';
 
 export const GalleryImages = [
   {
@@ -54,5 +58,21 @@ export const GalleryImages = [
   {
     id: 11,
     img: Img11,
+  },
+  {
+    id: 12,
+    img: Img12,
+  },
+  {
+    id: 13,
+    img: Img13,
+  },
+  {
+    id: 14,
+    img: Img14,
+  },
+  {
+    id: 15,
+    img: Img15,
   },
 ];

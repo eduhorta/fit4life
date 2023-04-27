@@ -15,7 +15,9 @@ function Gallery() {
           Gallery
         </h1>
       </div>
-      <Outlet />
+      <div>
+        <Outlet />
+      </div>
       <Footer />
     </section>
   );
