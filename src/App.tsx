@@ -12,6 +12,7 @@ import Wednesday from './pages/Schedule/Wednesday';
 import Thursday from './pages/Schedule/Thursday';
 import Friday from './pages/Schedule/Friday';
 import Saturday from './pages/Schedule/Saturday';
+import Blog from './pages/Blog';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="blog" element={<Blog />} />
 
         <Route path="gallery" element={<Gallery />}>
           <Route path="page-1" element={<GalleryPage1 />} />

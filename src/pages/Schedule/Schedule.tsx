@@ -10,7 +10,7 @@ function Schedule() {
           src={Banner}
           alt="banner"
         />
-        <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white lg:-translate-y-24 lg:text-5xl">
+        <h1 className="-translate-y-10 text-center text-3xl font-bold tracking-widest text-white lg:-translate-y-28 lg:text-5xl">
           Schedule
         </h1>
       </div>

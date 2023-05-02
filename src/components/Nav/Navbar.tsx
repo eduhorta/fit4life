@@ -71,25 +71,25 @@ function Navbar() {
                 <Link to="/">Home</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">Gallery</Link>
+                <Link to="/gallery">Gallery</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">Schedule</Link>
+                <Link to="/schedule">Schedule</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">Blog</Link>
+                <Link to="/blog">Blog</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">Pricing</Link>
+                <Link to="/pricing">Pricing</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">Classes</Link>
+                <Link to="/classes">Classes</Link>
               </li>
               <li onClick={hamburgerMenu}>
-                <Link to="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
