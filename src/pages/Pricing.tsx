@@ -15,7 +15,7 @@ function Pricing() {
           Pricing
         </h1>
       </div>
-      <div className="-translate-y-24">
+      <div className="-translate-y-8 lg:-translate-y-24">
         <PricingComponent />
       </div>
       <Footer />
