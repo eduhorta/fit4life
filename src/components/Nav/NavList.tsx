@@ -44,17 +44,17 @@ function NavList() {
           </Link>
         </li>
         <li>
-          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+          <Link onClick={goTop} to={'/pricing'} className="hover:text-teal-500">
             Pricing
           </Link>
         </li>
         <li>
-          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+          <Link onClick={goTop} to={'/classes'} className="hover:text-teal-500">
             Classes
           </Link>
         </li>
         <li>
-          <Link onClick={goTop} to={'/'} className="hover:text-teal-500">
+          <Link onClick={goTop} to={'/contact'} className="hover:text-teal-500">
             Contact
           </Link>
         </li>

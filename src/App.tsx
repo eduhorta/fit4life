@@ -13,6 +13,7 @@ import Thursday from './pages/Schedule/Thursday';
 import Friday from './pages/Schedule/Friday';
 import Saturday from './pages/Schedule/Saturday';
 import Blog from './pages/Blog';
+import Pricing from './pages/Pricing';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="pricing" element={<Pricing />} />
 
         <Route path="gallery" element={<Gallery />}>
           <Route path="page-1" element={<GalleryPage1 />} />
