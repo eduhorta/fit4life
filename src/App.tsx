@@ -14,6 +14,7 @@ import Friday from './pages/Schedule/Friday';
 import Saturday from './pages/Schedule/Saturday';
 import Blog from './pages/Blog';
 import Pricing from './pages/Pricing';
+import Classes from './pages/Classes';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
         <Route path="pricing" element={<Pricing />} />
+        <Route path="classes" element={<Classes />} />
 
         <Route path="gallery" element={<Gallery />}>
           <Route path="page-1" element={<GalleryPage1 />} />
