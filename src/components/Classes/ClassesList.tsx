@@ -12,7 +12,7 @@ export const ClassesList = [
   {
     img: Class1,
     title: 'Calisthenics',
-    instructor: 'Peter Parker',
+    instructor: 'Peter',
     time: 'Mon: 08:00 am',
   },
   {
@@ -30,7 +30,7 @@ export const ClassesList = [
   {
     img: Class4,
     title: 'Yoga',
-    instructor: 'Mariah Carey',
+    instructor: 'Morgana',
     time: 'Thu: 08:00 am',
   },
   {
@@ -48,7 +48,7 @@ export const ClassesList = [
   {
     img: Class7,
     title: 'Power Lifting',
-    instructor: 'Britney Spears',
+    instructor: 'Britney',
     time: 'Sun: 08:00 am',
   },
   {
@@ -60,7 +60,7 @@ export const ClassesList = [
   {
     img: Class9,
     title: 'Cycling',
-    instructor: 'Kitana Kama',
+    instructor: 'Kitana',
     time: 'Tue: 10:00 am',
   },
 ];
