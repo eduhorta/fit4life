@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavList from './NavList';
 import Logo from '../../assets/images/Logo/logo.png';
@@ -28,7 +28,6 @@ function Navbar() {
   const goTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
     });
   };
 
@@ -63,32 +62,66 @@ function Navbar() {
             }`}
           >
             <XMarkIcon
-              onClick={hamburgerMenu}
+              onClick={() => {
+                hamburgerMenu(), goTop();
+              }}
               className="absolute top-16 right-16 h-8 cursor-pointer text-red-500"
             />
             <ul className="space-y-6 text-center">
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/">Home</Link>
               </li>
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/about">About</Link>
               </li>
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/gallery">Gallery</Link>
               </li>
-              <li onClick={hamburgerMenu}>
-                <Link to="/schedule">Schedule</Link>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
+                <Link to="/schedule/monday">Schedule</Link>
               </li>
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/blog">Blog</Link>
               </li>
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/pricing">Pricing</Link>
               </li>
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/classes">Classes</Link>
               </li>
-              <li onClick={hamburgerMenu}>
+              <li
+                onClick={() => {
+                  hamburgerMenu(), goTop();
+                }}
+              >
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
@@ -103,7 +136,7 @@ function Navbar() {
               onClick={sidebarMenu}
               className="absolute top-16 right-16 h-8 cursor-pointer text-red-500"
             />
-            <section className="mx-12 h-screen">
+            <section className="mx-10 h-screen">
               <h1 className="text-lg font-bold tracking-wide">About Us</h1>
               <p className="mt-2 text-justify">
                 Fit4Life is a premier fitness center dedicated to helping you
@@ -114,7 +147,12 @@ function Navbar() {
                 Fit4Life is the perfect place to start your fitness journey.
               </p>
               <h1 className="mt-4 text-lg font-bold tracking-wide">Gallery</h1>
-              <Link to="/gallery/page-1" onClick={sidebarMenu}>
+              <Link
+                to="/gallery/page-1"
+                onClick={() => {
+                  sidebarMenu(), goTop();
+                }}
+              >
                 <div className="mt-2 grid grid-cols-3 grid-rows-1 gap-4">
                   <img
                     className="rounded-lg"

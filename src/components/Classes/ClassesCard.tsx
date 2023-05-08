@@ -4,7 +4,7 @@ import { ClockIcon } from '@heroicons/react/24/solid';
 
 function ClassesCard() {
   return (
-    <section className="grid -translate-y-8 grid-cols-1 gap-6 p-4 shadow-2xl drop-shadow-lg md:grid-cols-2 lg:-translate-y-20 lg:grid-cols-3 lg:py-4 lg:px-96">
+    <section className="grid -translate-y-8 grid-cols-1 gap-6 p-4 shadow-2xl drop-shadow-lg md:grid-cols-2 lg:-translate-y-20 lg:grid-cols-3 lg:py-4 lg:px-[16rem]">
       {ClassesList.map((card, index) => {
         return (
           <div className="relative shadow-lg" key={index}>
