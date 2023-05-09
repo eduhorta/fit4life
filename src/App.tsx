@@ -16,6 +16,7 @@ import Blog from './pages/Blog';
 import Pricing from './pages/Pricing';
 import Classes from './pages/Classes';
 import Contact from './pages/Contact';
+import User from './pages/User';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="pricing" element={<Pricing />} />
         <Route path="classes" element={<Classes />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="user" element={<User />} />
 
         <Route path="gallery" element={<Gallery />}>
           <Route path="page-1" element={<GalleryPage1 />} />
