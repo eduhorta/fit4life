@@ -61,7 +61,7 @@ function Contact() {
             </div>
           </div>
         </main>
-        <form className="flex w-full flex-col items-start justify-start gap-5 rounded-md bg-zinc-500/10 py-8 px-8 lg:w-2/5">
+        <form className="order-first flex w-full flex-col items-start justify-start gap-5 rounded-md bg-zinc-500/10 py-8 px-8 lg:order-last lg:w-2/5">
           <h1 className="border-b-2 border-[#0f766e] text-2xl font-semibold">
             Reach Us Out!
           </h1>

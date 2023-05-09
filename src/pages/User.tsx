@@ -15,14 +15,21 @@ function User() {
           Sign In
         </h1>
       </div>
-      <form className="mx-96 flex h-96 flex-col items-center justify-center rounded-md bg-zinc-900">
-        <label className="text-white">E-mail</label>
-        <input type="text" placeholder="fit4life@fit4life.com"></input>
-        <label className="text-white">Password</label>
-        <input placeholder="password"></input>
-        <button>Sign In</button>
-        <h2 className="text-white">
-          Don&apos;t have an account? <span>Sign Up</span>
+      <form className="mx-4 flex h-96 flex-col items-center justify-center space-y-4 rounded-md bg-zinc-900 lg:mx-96">
+        <label className="text-2xl text-white">E-mail</label>
+        <input
+          className="h-10"
+          type="text"
+          placeholder="fit4life@fit4life.com"
+        ></input>
+        <label className="text-2xl text-white">Password</label>
+        <input className="h-10" placeholder="password"></input>
+        <button className="rounded-md bg-[#0f766e] px-4 py-2 text-lg text-white hover:bg-[#0f766e]/80">
+          Sign In
+        </button>
+        <h2 className="text-sm text-white">
+          Don&apos;t have an account?{' '}
+          <span className="font-black text-[#0f766e]">Sign Up</span>
         </h2>
       </form>
       <Footer />

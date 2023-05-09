@@ -1,6 +1,13 @@
 import { PricingList } from './PricingList';
+import { Link } from 'react-router-dom';
 
 function PricingCard() {
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
+
   return (
     <section className="flex flex-col items-center justify-center gap-8 py-12 px-2 shadow-2xl drop-shadow-2xl lg:flex-row lg:px-0">
       {PricingList.map((card, index) => {
@@ -22,9 +29,13 @@ function PricingCard() {
                   <li key={index}>{service}</li>
                 ))}
               </ul>
-              <button className="absolute bottom-2 rounded-lg bg-[#0f766e] py-2 px-4 font-semibold tracking-wide text-white">
+              <Link
+                to="/contact"
+                onClick={goTop}
+                className="absolute bottom-2 rounded-lg bg-[#0f766e] py-2 px-4 font-semibold tracking-wide text-white"
+              >
                 Subscribe
-              </button>
+              </Link>
             </div>
           </div>
         );

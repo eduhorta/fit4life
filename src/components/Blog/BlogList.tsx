@@ -61,6 +61,6 @@ export const BlogList = [
     posted: 'By Admin | November 02, 2022 | Post-Training Diet',
     title: 'Do you wanna quit?',
     description:
-      'Post-training diet is an important aspect of a well-rounded fitness routine. Eating the right foods after a workout can help promote muscle recovery, replenish energy stores, and support overall health and fitness.',
+      'If you are thinking about quitting your fitness journey, remember why you started. Remember the goals you set for yourself, the progress you have made, and the obstacles you have overcome. Do not let temporary setbacks or plateaus discourage you from continuing to improve your health and well-being.',
   },
 ];

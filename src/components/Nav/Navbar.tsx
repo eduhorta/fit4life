@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavList from './NavList';
 import Logo from '../../assets/images/Logo/logo.png';
@@ -87,7 +87,7 @@ function Navbar() {
                   hamburgerMenu(), goTop();
                 }}
               >
-                <Link to="/gallery">Gallery</Link>
+                <Link to="gallery/page-1">Gallery</Link>
               </li>
               <li
                 onClick={() => {
