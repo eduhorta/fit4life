@@ -2,8 +2,71 @@ import Banner from '../../assets/images/Banner/banner.jpg';
 import InstagramIcon from '../../assets/images/Unleash/instagram.svg';
 import TikTokIcon from '../../assets/images/Unleash/tiktok.svg';
 import YouTubeIcon from '../../assets/images/Unleash/youtube.svg';
+import { useState } from 'react';
 
 function Contact() {
+  const [form, setForm] = useState(true);
+
+  interface eventProps {
+    preventDefault: () => void;
+  }
+
+  function toogleForm(event: eventProps) {
+    event.preventDefault();
+    setForm(!form);
+  }
+  const formContent = (
+    <form className="order-first flex w-full flex-col items-start justify-start gap-5 rounded-md bg-zinc-500/10 py-8 px-8 lg:order-last lg:w-2/5">
+      <h1 className="border-b-2 border-[#0f766e] text-2xl font-semibold">
+        Reach Us Out!
+      </h1>
+      <input
+        className="w-full rounded-md p-2"
+        type="text"
+        placeholder="Full Name*"
+      ></input>
+      <input
+        className="w-full rounded-md p-2"
+        type="text"
+        placeholder="E-mail Adress*"
+      ></input>
+      <select className="w-full rounded-md p-1">
+        <option>Select Class</option>
+        <option>Body Building</option>
+        <option>Martial Arts</option>
+        <option>Running</option>
+        <option>Fitness</option>
+        <option>Yoga</option>
+        <option>Functional Training</option>
+        <option>Calisthenics</option>
+        <option>Meditation</option>
+        <option>Cycling</option>
+      </select>
+      <textarea
+        className="h-32 w-full rounded-md p-2"
+        placeholder="Message"
+      ></textarea>
+      <button
+        onClick={toogleForm}
+        className="mx-auto rounded-lg bg-[#0f766e] px-4 py-2 text-white hover:bg-[#0f766e]/80 "
+      >
+        Submit Now
+      </button>
+    </form>
+  );
+
+  const formEnd = (
+    <div className="order-first flex h-[477px] w-full flex-col items-start justify-start gap-5 rounded-md bg-zinc-500/10 py-8 px-8 lg:order-last lg:w-2/5">
+      <h1 className="border-b-2 border-[#0f766e] text-2xl font-semibold">
+        {' '}
+        Thank you!
+      </h1>
+      <p className="text-lg font-semibold">
+        One member of our team will get in contact!
+      </p>
+    </div>
+  );
+
   return (
     <section>
       <div>
@@ -61,40 +124,7 @@ function Contact() {
             </div>
           </div>
         </main>
-        <form className="order-first flex w-full flex-col items-start justify-start gap-5 rounded-md bg-zinc-500/10 py-8 px-8 lg:order-last lg:w-2/5">
-          <h1 className="border-b-2 border-[#0f766e] text-2xl font-semibold">
-            Reach Us Out!
-          </h1>
-          <input
-            className="w-full rounded-md p-2"
-            type="text"
-            placeholder="Full Name*"
-          ></input>
-          <input
-            className="w-full rounded-md p-2"
-            type="text"
-            placeholder="E-mail Adress*"
-          ></input>
-          <select className="w-full rounded-md p-1">
-            <option>Select Class</option>
-            <option>Body Building</option>
-            <option>Martial Arts</option>
-            <option>Running</option>
-            <option>Fitness</option>
-            <option>Yoga</option>
-            <option>Functional Training</option>
-            <option>Calisthenics</option>
-            <option>Meditation</option>
-            <option>Cycling</option>
-          </select>
-          <textarea
-            className="h-32 w-full rounded-md p-2"
-            placeholder="Message"
-          ></textarea>
-          <button className="mx-auto rounded-lg bg-[#0f766e] px-4 py-2 text-white hover:bg-[#0f766e]/80 ">
-            Submit Now
-          </button>
-        </form>
+        {form ? formContent : formEnd}
       </div>
     </section>
   );

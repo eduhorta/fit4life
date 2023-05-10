@@ -52,9 +52,12 @@ function Navbar() {
             onClick={sidebarMenu}
             className="h-8 w-8 cursor-pointer text-white hover:text-teal-500"
           />
-          <h3 className="ml-4 mr-8 hidden cursor-pointer rounded-lg border-2 p-2 text-[16px] font-bold tracking-widest text-white hover:border-teal-500 hover:text-teal-500 lg:block">
+          <Link
+            to="/contact"
+            className="ml-4 mr-8 hidden cursor-pointer rounded-lg border-2 p-2 text-[16px] font-bold tracking-widest text-white hover:border-teal-500 hover:text-teal-500 lg:block"
+          >
             JOIN NOW
-          </h3>
+          </Link>
           {/* Hamburger Menu */}
           <div
             className={`fixed top-0 left-0 z-[99] h-screen w-full bg-white py-32 duration-500 ease-in-out  ${
