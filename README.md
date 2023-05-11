@@ -1,6 +1,9 @@
 <h1 align="center">Fit4Life Website Application</h1>
 <h2 align="center">Tech Stack</h2>
 <div align="center">
+<a href="https://reactjs.org/"><image src="https://img.shields.io/static/v1?label=React&message=^18&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=TypeScript&message=^4.9&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=Tailwind%20CSS&message=^3&style=for-the-badge&labelColor=FFFFFF&logo=tailwindcss&color=06B6D4"/></a> <a href="https://cn.vitejs.dev/"><image src="https://img.shields.io/static/v1?label=Vite&message=^4&style=for-the-badge&labelColor=FFFFFF&logo=vite&color=646CFF"/></a>
+</div>
+<div align="center">
   <h1>Mobile Version</h1>
 <image src="https://github.com/eduhorta/fit4life/blob/master/src/assets/images/ReadMe/mobile-1.jpg?raw=true"/>
  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -8,9 +11,7 @@
   <h1>Desktop Version</h1>
 <image src="https://github.com/eduhorta/fit4life/blob/master/src/assets/images/ReadMe/desktop.jpg?raw=true"/>
 </div>
-<div align="center">
-<a href="https://reactjs.org/"><image src="https://img.shields.io/static/v1?label=React&message=^18&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=TypeScript&message=^4.9&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6"/></a> <a href="https://www.typescriptlang.org/"><image src="https://img.shields.io/static/v1?label=Tailwind%20CSS&message=^3&style=for-the-badge&labelColor=FFFFFF&logo=tailwindcss&color=06B6D4"/></a> <a href="https://cn.vitejs.dev/"><image src="https://img.shields.io/static/v1?label=Vite&message=^4&style=for-the-badge&labelColor=FFFFFF&logo=vite&color=646CFF"/></a>
-</div>
+
 </br>
 <p>Welcome to the README file for Fit4Life, a responsive website application designed to provide information and services related to fitness and wellness. This document will give you an overview of the application, its features, and the technologies used to build it.</p>
 <h2>Features</h2>
